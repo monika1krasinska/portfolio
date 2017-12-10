@@ -34,3 +34,14 @@ nav#main-nav > ul > li > a {
 #main-nav > ul > li > a:hover{
     color:#291f1a;
 }
+#main-header {
+    background-image: url("../img/header-background.jpg");
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+}
+.main-header-content > h1 {
+    font-family: "Roboto";
+}
+
+
