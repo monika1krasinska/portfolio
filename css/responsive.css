@@ -1,0 +1,58 @@
+@media all and (max-width : 1200px) {
+    .portfolio-item {
+        width:49%;
+       
+    }
+    .portfolio-item:last-child {
+        width:100%;
+    }
+}
+    @media all and (max-width : 992px) {
+        .toggle {
+            display: block;
+            background-color: #fff;
+            padding: 0 20px;
+            color: #1ac056;
+            font-size: 20px;
+            line-height: 60px;
+            text-decoration: none;
+            border: none;
+            text-align: right;
+        }
+        #main-nav > ul {
+            display: none;
+        }
+        #o-mnie > figure {
+            width:100%;
+        }
+        #o-mnie > figure > img{
+            max-height: inherit;
+        }
+        #o-mnie > article {
+            width:100%;
+        }
+        .main-header-content {
+             padding:10%;
+        }
+        .kontakt-data {
+            width:100%;
+            text-align: center;
+        }
+        #kontakt > .kontakt-social-icons > a > i {
+            margin: 0;
+        }
+        
+}
+    @media all and (max-width : 768px){
+        section {padding:0 40px 50px;
+        }
+        h1 {
+            font-size:3em;
+        }
+        h2{
+            font-size:1,5em;
+        }}
+@media all and (max-width : 576px) {
+    section { padding: 0 10px 30px;
+    } }
+

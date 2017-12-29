@@ -11,8 +11,14 @@ body {
 section {
     padding: 0 80px 100px;
     width:100%;
-}
 
+}
+#drop {
+    display: none;
+}
+.toggle {
+    display: none;
+}
     /*General styles - end */
 /********** Styles ***********/
 /*Navigation-start*/
@@ -276,9 +282,10 @@ nav#main-nav > ul > li > a {
     width: 50%;
     float: right;
     margin-top: 100px;
+    color: #fff;
 }
 #form {
-    width: 80%;
+    width: 100%;
 }
 #form > input {
     width: 100%;
@@ -287,6 +294,21 @@ nav#main-nav > ul > li > a {
     border: 0 #2b4a64 ;
     background-color: #2b4a64;
     color:#fff;
+}
+.kontakt-social-icons > a > i {
+    color:#fff;
+    display: inline-block;
+    width:38px;
+    height:38px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 38px;
+    border: 1px solid #fff;
+    font-size:22px;
+}
+.kontakt-social-icons > a > i:hover {
+    background-color: #fff;
+    color:#213b50;
 }
 textarea {
  height: 100px;
