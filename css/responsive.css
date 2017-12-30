@@ -8,6 +8,9 @@
     }
 }
     @media all and (max-width : 992px) {
+        #main-nav > #drop:checked + ul {
+            display: block;
+        }
         .toggle {
             display: block;
             background-color: #fff;
@@ -22,23 +25,29 @@
         #main-nav > ul {
             display: none;
         }
-        #o-mnie > figure {
+        #main-nav > ul >  li {
+            display: block;
+            width: 100%;
+            padding:20px;
+            text-align: right;
+        }
+        #about > figure {
             width:100%;
         }
-        #o-mnie > figure > img{
+        #about  > figure > img{
             max-height: inherit;
         }
-        #o-mnie > article {
+        #about > article {
             width:100%;
         }
         .main-header-content {
              padding:10%;
         }
-        .kontakt-data {
+        .contact-data {
             width:100%;
             text-align: center;
         }
-        #kontakt > .kontakt-social-icons > a > i {
+        #contact > .contact-social-icons > a > i {
             margin: 0;
         }
         

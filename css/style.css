@@ -30,7 +30,7 @@ nav#main-nav {
     right:0;
     background-color: #fff;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 20px;
      z-index: 999; 
 }
 nav#main-nav > ul {
@@ -86,7 +86,7 @@ nav#main-nav > ul > li > a {
 
 
 /*O mnie -start*/
-#o-mnie {
+#about {
     background-color: #f9fcfe;
     overflow: hidden;
     width: 100%;
@@ -95,33 +95,33 @@ nav#main-nav > ul > li > a {
     margin-top: 60px;
     margin-bottom: 35px;
 }
-#o-mnie > figure {
+#about > figure {
     width:50%;
     margin:0;
     float: left;
 }
-#o-mnie > figure {
+#about > figure {
     text-align: center;
 }
-#o-mnie > figure > img {
+#about > figure > img {
     max-width: 350px;
     margin: 0;
     border-radius: 30px;
     
 }
-#o-mnie > article {
+#about > article {
     width: 50%;
     float: left;
   
 }
-#o-mnie > article > p {
+#about > article > p {
     margin: 0 auto;
 }
-#o-mnie > h2 {
+#about > h2 {
     text-align: center;
     font-weight: 100;
 }
-#o-mnie > h2 > span {
+#about > h2 > span {
     color: #1ac056;
     font-weight: 400;
 }
@@ -129,21 +129,21 @@ nav#main-nav > ul > li > a {
 
 /*Moje umiejetnosci-start*/
 
-#moje-umiejetnosci {
+#skills {
     font-size: 2em;
     font-weight: 300;
     margin-top: 60px;
     margin-bottom: 35px;
 }
-#moje-umiejetnosci > h2 {
+#skills > h2 {
     text-align: center;
     font-weight: 100;
 }
-#moje-umiejetnosci > h2 > span {
+#skills > h2 > span {
     color: #1ac056;
     font-weight: 500;
 }
-#moje-umiejetnosci > article >p {
+#skills > article >p {
     text-align: center;
 }
 #skill-icons > figure {
@@ -243,7 +243,7 @@ nav#main-nav > ul > li > a {
 
 /*Stopka kontaktowa-start*/
 
-#kontakt {
+#contact {
     font-size: 25px;
     margin-top: 60px;
    margin-bottom: 0;
@@ -257,28 +257,28 @@ nav#main-nav > ul > li > a {
     overflow: hidden;
 }
 
-.kontakt-data{
+.contact-data{
     width: 50%;
     float: left;
 }
-.kontakt-data > h2 {
+.contact-data > h2 {
     text-align: left;
     font-size: 38px;
     font-weight: 250;
 }
-.kontakt-data > h2 >span {
+.contact-data > h2 >span {
     color:  #1ac056;
 }
-.kontakt-data > address {
+.contact-data > address {
     font-style: normal;
     line-height: 45px;
     margin: 72px 0;
 }
 
-.kontakt-data > address > p > a {
+.contact-data > address > p > a {
     color:#1ac056;
 }
-.kontakt-form {
+.contact-form {
     width: 50%;
     float: right;
     margin-top: 100px;
@@ -295,7 +295,7 @@ nav#main-nav > ul > li > a {
     background-color: #2b4a64;
     color:#fff;
 }
-.kontakt-social-icons > a > i {
+.contact-social-icons > a > i {
     color:#fff;
     display: inline-block;
     width:38px;
@@ -306,7 +306,7 @@ nav#main-nav > ul > li > a {
     border: 1px solid #fff;
     font-size:22px;
 }
-.kontakt-social-icons > a > i:hover {
+.contact-social-icons > a > i:hover {
     background-color: #fff;
     color:#213b50;
 }
@@ -322,13 +322,13 @@ textarea {
 textarea:focus {
     background-color: #426684 ;
 }
-.kontakt-form > #form > input[type="text"]:focus {
+.contact-form > #form > input[type="text"]:focus {
    background-color: #426684 ; 
 }
-.kontakt-form > #form > input[type="email"]:focus {
+.contact-form > #form > input[type="email"]:focus {
    background-color: #426684 ; 
 }
-.kontakt-form > #form > input[type="submit"] {
+.contact-form > #form > input[type="submit"] {
     width: auto;
     padding: 15px 30px;
     float: right;
@@ -338,7 +338,7 @@ textarea:focus {
     color:#fff;
     font-weight: 600;
 }
-.kontakt-form > #form > input[type="submit"]:hover {
+.contact-form > #form > input[type="submit"]:hover {
     background-color: #fff;
     color: #1ac056;
 }

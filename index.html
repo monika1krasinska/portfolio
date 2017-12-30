@@ -19,9 +19,10 @@
 <!--Nawigation-->
 
 <body>
-    <nav id="main-nav" id="drop:checked">
-        <label class="toggle">Menu</label>
-        <checkbox id="drop"></checkbox>
+    <nav id="main-nav" >
+     <label for="drop" class="toggle">Menu</label>
+      <input type="checkbox" id="drop">
+        
         <ul>
             <li><a href="">o mnie</a></li>
             <li><a href="">umiejętności</a></li>
@@ -41,7 +42,7 @@
 
     <!--    Header-end-->
     <!--O mnie - start-->
-    <section id="o-mnie">
+    <section id="about">
         <h2>O<span> mnie</span></h2>
         <figure>
             <img src="../img/jan-nowak.jpg" alt="Jan Kowalski">
@@ -53,7 +54,7 @@
     </section>
     <!--O mnie - end-->
     <!--    Moje umiejetnosci-start-->
-    <section id="moje-umiejetnosci">
+    <section id="skills">
         <h2>Moje <span>umiejętności</span></h2>
         <article>
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum eveniet odio, alias veritatis accusantium. Totam repellendus magnam voluptatibus esse, nam repellat placeat, aperiam distinctio quasi soluta molestiae.</p>
@@ -137,8 +138,8 @@
 
     </section>
 
-    <section id="kontakt">
-        <div class="kontakt-data ">
+    <section id="contact">
+        <div class="contact-data ">
             <h2>Monika <span>Krasińska</span></h2>
             <address>
                 Mostowa 10<br>
@@ -146,7 +147,7 @@
                 <p>tel: 111 222 333<br>
             email: <a href="mailto: monika.krasinska@o2.pl ">example@gmail.com</a></p>
             </address>
-            <div class="kontakt-social-icons ">
+            <div class="contact-social-icons ">
                 <a href="#">
 <i class="fa fa-facebook" aria-hidden="true"></i>
                         <i class="fa fa-google-plus"></i>
@@ -155,7 +156,7 @@
                 </a>
             </div>
         </div>
-        <div class="kontakt-form">
+        <div class="contact-form">
             <form id="form">
                 <label for="imie-i-nazwisko "></label>
                 <input type="text" name="imie-i-nazwisko " placeholder="Imię i nazwisko "><br>
